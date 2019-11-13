@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CBTS</string>
+    <string name="cbts">CBTS</string>
+    <string name="logo">logo</string>
+    <string name="driver">DRIVER</string>
+    <string name="student">STUDENT</string>
+    <string name="textview">TextView</string>
+    <string name="student_login1">Student Login</string>
+    <string name="signin">SIGNIN</string>
+    <string name="email1">Email</string>
+    <string name="password1">Password</string>
+    <string name="driver_login">Driver_login</string>
+    <string name="driver_id">Driver_Id</string>
+    <string name="Driver_Login">Driver_Login</string>
+    <string name="id_no">ID_No</string>
+    <string name="driver_registration">Driver Registration</string>
+    <string name="email">Email</string>
+    <string name="password2">Password</string>
+    <string name="Driver_id">Driver_ID</string>
+
+
+    <string name="student_login">Student Login</string>
+    <string name="username">Username</string>
+    <string name="email2">Email</string>
+    <string name="student_registration">Student Registration</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="passwrod">Passwrod</string>
+    <string name="pswd">Password</string>
+    <string name="passwrd">Password</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location">Location</string>
+    <string name="start_sharing">START SHARING</string>
+    <string name="bus_location">Bus Location</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/background"
+    tools:context=".signupActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/student_registration"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:id="@+id/studentfullnameeT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:focusableInTouchMode="true"
+        android:focusable="true"/>
+    <EditText
+        android:id="@+id/studentlastnameeT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:focusableInTouchMode="true"
+        android:focusable="true"/>
+    <EditText
+        android:id="@+id/studentemaileT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email2"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:focusableInTouchMode="true"
+        android:focusable="true"/>
+
+    <EditText
+        android:id="@+id/studentpasswordeT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/passwrod"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:focusableInTouchMode="true"
+        android:focusable="true"/>
+    <EditText
+        android:id="@+id/studentconfirmpasswordeT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:focusableInTouchMode="true"
+        android:focusable="true"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/userRegister"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="24sp" />
+    </LinearLayout>
+</ScrollView>
